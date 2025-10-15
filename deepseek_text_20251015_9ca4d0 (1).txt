@@ -1,0 +1,9 @@
+kadet-tour/
+├── index.html                 (главная страница)
+├── locations/
+│   └── plats.html            (страница плаца)
+├── archive/
+│   ├── plats-2009-1.jpg      (пример фото)
+│   └── ...
+└── panoramas/
+    └── plats-2024.jpg        (пример панорамы)
