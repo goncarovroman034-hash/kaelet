@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цифровой тур - 15 лет Кадетскому корпусу</title>
+    <title>Цифровой код кадества</title>
     <style>
         * {
             margin: 0;
@@ -110,4 +110,5 @@
         </a>
     </div>
 </body>
+
 </html>
