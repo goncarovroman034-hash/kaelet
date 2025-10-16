@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цифровой код кадетства - 15 лет Кадетскому корпусу</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: white;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 25px;
+            background: rgba(179, 0, 0, 0.9);
+            border-radius: 15px;
+            border: 2px solid #ff4444;
+        }
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .menu-container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .location-card {
+            display: block;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(179, 0, 0, 0.5);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px 0;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        .location-card:hover {
+            background: rgba(179, 0, 0, 0.3);
+            border-color: #ff4444;
+            transform: translateY(-3px);
+        }
+        .card-icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .card-title {
+            font-size: 1.3em;
+            margin-bottom: 5px;
+        }
+        .card-desc {
+            color: #ccc;
+            font-size: 0.9em;
+        }
+        .instruction {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 25px 0;
+            border-left: 4px solid #b30000;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎖️ Цифровой код кадетства</h1>
+        <p>15 лет Кадетскому корпусу</p>
+    </div>
+
+    <div class="instruction">
+        <h3>📱 Как использовать:</h3>
+        <p>1. Наведите камеру на QR-код у объекта</p>
+        <p>2. Выберите нужный раздел в меню</p>
+        <p>3. Изучайте архивные фото и историю</p>
+    </div>
+
+    <div class="menu-container">
+        <a href="locations/plats.html" class="location-card">
+            <div class="card-icon">⚔️</div>
+            <div class="card-title">Плац</div>
+            <div class="card-desc">Главная площадка построений и парадов</div>
+        </a>
+
+        <a href="locations/classroom.html" class="location-card">
+            <div class="card-icon">🎓</div>
+            <div class="card-title">Учебный класс</div>
+            <div class="card-desc">Аудитория для занятий и теоретической подготовки</div>
+        </a>
+
+        <a href="locations/gym.html" class="location-card">
+            <div class="card-icon">💪</div>
+            <div class="card-title">Спортзал</div>
+            <div class="card-desc">Зал физической подготовки и тренировок</div>
+        </a>
+
+        <a href="locations/dining.html" class="location-card">
+            <div class="card-icon">🍽️</div>
+            <div class="card-title">Столовая</div>
+            <div class="card-desc">Помещение для приема пищи</div>
+        </a>
+    </div>
+</body>
+</html>
